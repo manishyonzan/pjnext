@@ -1,0 +1,51 @@
+{
+    "men": [
+      {
+        "productname": "Men's Product 1",
+        "price": 10.99,
+        "imagename": "product.png",
+        "description": "This is a description of Men's Product 1.",
+        "category": "Men"
+      },
+      {
+        "productname": "Men's Product 2",
+        "price": 19.99,
+        "imagename": "product.png",
+        "description": "This is a description of Men's Product 2.",
+        "category": "Men"
+      }
+    ],
+    "women": [
+      {
+        "productname": "Women's Product 1",
+        "price": 15.99,
+        "imagename": "product.png",
+        "description": "This is a description of Women's Product 1.",
+        "category": "Women"
+      },
+      {
+        "productname": "Women's Product 2",
+        "price": 25.99,
+        "imagename": "product.png",
+        "description": "This is a description of Women's Product 2.",
+        "category": "Women"
+      }
+    ],
+    "kids": [
+      {
+        "productname": "Kid's Product 1",
+        "price": 5.99,
+        "imagename": "product.png",
+        "description": "This is a description of Kid's Product 1.",
+        "category": "Kids"
+      },
+      {
+        "productname": "Kid's Product 2",
+        "price": 8.99,
+        "imagename": "product.png",
+        "description": "jajsj",
+        "category": "Kids"
+      }
+    ]
+  }
+  
