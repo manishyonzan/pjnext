@@ -47,7 +47,7 @@ const Clickedshow = () => {
                 </div>
                 {show ? <div>
 
-                    <form className="formemail flex flex-col border border-gray-400 bg-blue-200" action="https://formsubmit.co/78be1319d7866fec3a47f6493a2e85f7" method="POST">
+                    <form className="formemail flex flex-col border border-gray-400 bg-blue-200" action="https://formsubmit.co/" method="POST">
                         <input className="hidden" type="text" name="Product" placeholder="Name" defaultValue={formdata} />
                         <h2>Give your Email or Phone number</h2>
                         <input className="border border-gray-400" type="text" name="name" placeholder="Name" required />
