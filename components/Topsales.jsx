@@ -35,7 +35,7 @@ const Topsales = () => {
     return (
         <div>
             <div className="m-4">
-                <h1>Topsales</h1>
+                <h1>Soft beverages and salad</h1>
             </div>
             <div className="flex  justify-center border border-gray-400">
                 

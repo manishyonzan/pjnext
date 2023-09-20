@@ -11,7 +11,8 @@ export default async function MEN() {
     let data = JSON.parse(fileContents);
     return (
         <div>
-            <div className='flex flex-wrap'>
+            <h1 className='text-4xl text-center m-2'>Rice and Noodles</h1>
+            <div className='flex justify-around flex-wrap'>
                 {data.rice.map((item) => (
 
                     <Clickeditem key={item.productname} data={item} />

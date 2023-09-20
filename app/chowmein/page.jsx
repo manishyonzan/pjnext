@@ -2,7 +2,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import Clickeditem from '@/components/Clickeditem';
 export default async function WOMEN() {
-    
+
 
 
     const jsonDirectory = path.join(process.cwd(), 'public');
@@ -10,14 +10,15 @@ export default async function WOMEN() {
 
     let data = JSON.parse(fileContents);
     return (
-        <div> 
-             <div className='flex justify-around'>
+        <div>
+            <h1 className='text-4xl text-center m-2'>Chowmein Items</h1>
+            <div className='flex justify-around'>
                 {data.chowmein.map((item) => (
 
                     <Clickeditem key={item.productname} data={item} />
                 ))}
             </div>
-            </div>
+        </div>
     )
 
 }

@@ -13,7 +13,7 @@ export default async function URLS({ params }) {
 
 
     return (
-        <div className='block w-full'>hello {urls}
+        <div className='block w-full'> <h1 className='text-4xl text-center'>{urls}</h1>
             <div className='flex justify-around w-full flex-wrap'>
                 {datae.map((item) => (
                     <Clickeditem key={item.productname} data={item} />

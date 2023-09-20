@@ -9,7 +9,7 @@ export default async function KIDS() {
 
     let data = JSON.parse(fileContents);
     return (
-        <div>
+        <div><h1 className='text-4xl text-center m-2'>Burger Items</h1>
             <div className='flex w-full justify-around flex-wrap'>
                 {data.burger.map((item) => (
 
