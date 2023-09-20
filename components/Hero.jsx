@@ -3,7 +3,7 @@ import Image from "next/image"
 const Hero = () => {
     return (
         <div className="flex border border-gray-400 justify-between">
-            <div className="w-1/3 flex items-center p-20 border border-green-200" >
+            <div className="w-1/2 text-sm sm:text-md  flex items-center p-1 sm:p-20 " >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe libero
                 doloremque impedit dolores esse obcaecati corrupti neque consequatur
                 voluptates molestiae alias, iste sint quam beatae quis temporibus
@@ -11,10 +11,10 @@ const Hero = () => {
 
 
             </div>
-            <div className="w-1/2 md:w-1/3 flex">
+            <div className="w-1/2 flex justify-center">
                 <div>
                     <Image
-                        src="/men-women.png"
+                        src="/burger1.png"
                         alt="My Image"
                         width={500}
                         height={500} />

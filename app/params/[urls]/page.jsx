@@ -1,5 +1,6 @@
 import path from 'path';
 import { promises as fs } from 'fs';
+import Clickeditem from '@/components/Clickeditem';
 export default async function URLS({ params }) {
     const { urls } = params;
 
@@ -8,17 +9,19 @@ export default async function URLS({ params }) {
     const fileContents = await fs.readFile(jsonDirectory + '/data.json', 'utf8');
 
     let data = JSON.parse(fileContents);
+    let datae = data[urls]
+
+
     return (
-        <div>hello {urls}
-            {data.men.map((item) => (
-                <li key={item.productname}>
-                    <h2>{item.productname}</h2>
-                    <p>{item.description}</p>
-                    <p>{item.price}</p>
-                </li>
-            ))}
-            
+        <div className='block w-full'>hello {urls}
+            <div className='flex justify-around w-full flex-wrap'>
+                {datae.map((item) => (
+                    <Clickeditem key={item.productname} data={item} />
+
+                ))}
             </div>
+
+        </div >
     )
 
 }

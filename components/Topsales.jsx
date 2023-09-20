@@ -4,30 +4,30 @@ import Clickeditem from "./Clickeditem"
 const Topsales = () => {
     const data = [
         {
-          "productname": "top Product 1",
+          "productname": "Soft drinks",
           "price": 5.99,
-          "imagename": "product.png",
+          "imagename": "coke.jpg",
           "description": "This is a description of top Product 1.",
           "category": "Kids"
         },
         {
-          "productname": "Kid's Product 2",
+          "productname": "Lassi",
           "price": 8.99,
-          "imagename": "product.png",
-          "description": "jajsj",
+          "imagename": "lassi.jpg",
+          "description": "ja sjsjs sjsjsjs sjsjsjsjjs sjsjj jsj",
           "category": "Kids"
         },
         {
-            "productname": "top Product 3",
+            "productname": "Vegetables Salads",
             "price": 5.99,
-            "imagename": "product.png",
+            "imagename": "vegetables.jpg",
             "description": "This is a description of top Product 3.",
             "category": "Kids"
           },
           {
-            "productname": "Kid's Product 2",
+            "productname": "Dry Nuts",
             "price": 8.99,
-            "imagename": "product.png",
+            "imagename": "drynuts.jpg",
             "description": "jajsj top product 4",
             "category": "Kids"
           }

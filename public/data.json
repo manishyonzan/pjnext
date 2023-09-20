@@ -31,20 +31,202 @@
         "category": "Women"
       }
     ],
-    "kids": [
+    "burger": [
       {
-        "productname": "Kid's Product 1",
-        "price": 5.99,
-        "imagename": "product.png",
-        "description": "This is a description of Kid's Product 1.",
-        "category": "Kids"
+        "productname": "Veg Burger",
+        "price": 500,
+        "imagename": "burgerveg.jpg",
+        "description": "veg burger description",
+        "category": "burger"
       },
       {
-        "productname": "Kid's Product 2",
+        "productname": "Chikcen Burger",
         "price": 8.99,
-        "imagename": "product.png",
+        "imagename": "burgerchicken.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Ham Burger",
+        "price": 8.99,
+        "imagename": "burgerham.jpg",
         "description": "jajsj",
-        "category": "Kids"
+        "category": "Burger"
+      }
+    ],
+    "momo": [
+      {
+        "productname": "Chicken momo ",
+        "price": 205.99,
+        "imagename": "chickenmomo.jpg",
+        "description": "This is a description of Chicken momo",
+        "category": "Momo"
+      },
+      {
+        "productname": "paneer momo",
+        "price": 25.99,
+        "imagename": "paneermomo.jpg",
+        "description": "This is a description of paneer momo",
+        "category": "Women"
+      },
+      {
+        "productname": "Buff momo",
+        "price": 25.99,
+        "imagename": "buffmomo.jpg",
+        "description": "This is a description of buff momo",
+        "category": "Women"
+      },
+      {
+        "productname": "Veg momo",
+        "price": 25.99,
+        "imagename": "vegmomo.jpg",
+        "description": "This is a description of buff momo",
+        "category": "Women"
+      }
+    ],
+    "chowmein": [
+      {
+        "productname": "chicken chowmein",
+        "price": 500,
+        "imagename": "chickenchowmein.jpg",
+        "description": "veg burger description",
+        "category": "burger"
+      },
+      {
+        "productname": "Buff chowmein",
+        "price": 8.99,
+        "imagename": "buffchowmein.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      }
+    ],
+    "rice": [
+      {
+        "productname": "Thukpa",
+        "price": 500,
+        "imagename": "thukpa.jpg",
+        "description": "thukpa description",
+        "category": "burger"
+      },
+      {
+        "productname": "biryani",
+        "price": 8.99,
+        "imagename": "biryani.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "fried rice",
+        "price": 8.99,
+        "imagename": "friedrice.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "noodles",
+        "price": 8.99,
+        "imagename": "noodles.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      }
+    ],
+    "beer": [
+      {
+        "productname": "Tuborg",
+        "price": 500,
+        "imagename": "tuborg.jpg",
+        "description": "thukpa description",
+        "category": "burger"
+      },
+      {
+        "productname": "carlsberg",
+        "price": 8.99,
+        "imagename": "carlsberg.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Gorkha Strong",
+        "price": 8.99,
+        "imagename": "gorkhastrong.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Budweiser",
+        "price": 8.99,
+        "imagename": "budweiser.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Apple cider",
+        "price": 8.99,
+        "imagename": "applecider.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      }
+    ],
+    "domesticsprits": [
+      {
+        "productname": "Ruslan Vodka",
+        "price": 500,
+        "imagename": "ruslan.jpg",
+        "description": "thukpa description",
+        "category": "burger"
+      },
+      {
+        "productname": "8848 Vodka",
+        "price": 8.99,
+        "imagename": "mtvodka.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Old Durbar",
+        "price": 8.99,
+        "imagename": "durbar.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Khukuri Rum",
+        "price": 8.99,
+        "imagename": "khukuri.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      },
+      {
+        "productname": "Apple cider",
+        "price": 8.99,
+        "imagename": "applecider.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      }
+    ],
+    "soup": [
+      {
+        "productname": "Mushroom Soup",
+        "price": 500,
+        "imagename": "mushroom.jpg",
+        "description": "thukpa description",
+        "category": "burger"
+      },
+      {
+        "productname": "Chicken soup",
+        "price": 8.99,
+        "imagename": "soupchicken.jpg",
+        "description": " description chicken burger",
+        "category": "Burger"
+      }
+    ],
+    "hookah": [
+      {
+        "productname": "Hookah",
+        "price": 500,
+        "imagename": "hukka.jpg",
+        "description": "There are many variety liek apple,banana ,pineapple flavour",
+        "category": "burger"
       }
     ]
   }

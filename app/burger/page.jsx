@@ -9,9 +9,9 @@ export default async function KIDS() {
 
     let data = JSON.parse(fileContents);
     return (
-        <div>hello
-            <div className='flex justify-center'>
-                {data.kids.map((item) => (
+        <div>
+            <div className='flex w-full justify-around flex-wrap'>
+                {data.burger.map((item) => (
 
                     <Clickeditem key={item.productname} data={item} />
                 ))}

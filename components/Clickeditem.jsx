@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-import Image from "next/image";
 const Clickeditem = (props) => {
   let { data } = props;
   const clicked = () => {
@@ -12,17 +11,13 @@ const Clickeditem = (props) => {
 
   }
   return (
-    <div className="m-3">
+    <div className="m-3 block clickedshow p-5">
       <Link href="/clickeditem" onClick={clicked}>
 
         <h2>{data.productname}</h2>
         <p>{data.description}</p>
         <p>{data.price}</p>
-        <Image
-          src={`/${data.imagename}`}
-          alt="My Image"
-          width={300}
-          height={300} />
+          <img alt="burger" className="h-60 w-60" src={`/${data.imagename}`} />
         </Link>
     </div>
   )

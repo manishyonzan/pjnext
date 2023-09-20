@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.clickeditem{
+.clickeditem {
     height: 90vh;
+}
+.clickedshow-div{
+    background: rgb(209, 208, 233);
+}
+
+.clickedshow {
+    background: #ccced1;
+
 }

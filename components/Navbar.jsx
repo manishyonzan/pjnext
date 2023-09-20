@@ -7,9 +7,9 @@ const Navbar = () => {
                 Sukuman lama shop
                 </div>
                <ul className="flex items-center justify-between">
-                <Link href="/men" className="m-3 hover:text-blue-400">Men</Link>
-                <Link href="/women" className="m-3 hover:text-blue-400">Women </Link>
-                <Link href="/kid" className="m-3 hover:text-blue-400">Kids</Link>
+                <Link href="/params/momo" className="m-3 hover:text-blue-400">Momo</Link>
+                <Link href="/burger" className="m-3 hover:text-blue-400">Burger </Link>
+                <Link href="/chowmein" className="m-3 hover:text-blue-400">Chowmein</Link>
                </ul>
                <ul>
                 hello 3

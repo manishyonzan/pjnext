@@ -1,8 +1,8 @@
 import path from 'path';
 import { promises as fs } from 'fs';
 import Clickeditem from '@/components/Clickeditem';
-export default async function MEN() {
-
+export default async function WOMEN() {
+    
 
 
     const jsonDirectory = path.join(process.cwd(), 'public');
@@ -10,16 +10,14 @@ export default async function MEN() {
 
     let data = JSON.parse(fileContents);
     return (
-        <div>hello
-
-            <div className='flex justify-center'>
-                {data.men.map((item) => (
+        <div> 
+             <div className='flex justify-around'>
+                {data.chowmein.map((item) => (
 
                     <Clickeditem key={item.productname} data={item} />
                 ))}
             </div>
-
-        </div>
+            </div>
     )
 
 }
